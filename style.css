@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+.main_wrapper{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+.header_wrapper{
+/*	width: auto;
+*/	height: 150px;
+	margin: auto;
+}
+
+.menubar{
+	width: auto;
+	height: 50px;
+	color: white;
+
+}
+.menubar p{
+	float: right;
+}
+
+#menu{
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	float: left;
+}
+
+#menu li{
+	list-style: none;
+	display: inline;
+
+}
+
+#menu a{
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	margin: 5px;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;	
+}
+
+#menu a:hover{
+	color: green;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+hr{
+	border-color: green;
+}
+
+#tel{
+	float: left;
+}
+
+.sub-head img{
+	float: left;
+	width: 300px;
+	height: 100px;
+	padding: 5px;
+}
+
+.sub-head button{
+	height: 50px;
+	width: 200px;
+	float: right;
+	margin: 25px;
+}
+
+.home-msg{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.content{
+	width: 40%;
+	margin-left: 30%;
+	display: block;
+	padding-top: 50px;
+}
+
+button{
+	height: 50px;
+	width: 200px;
+	background: orange;
+	color: #000000;
+	font-weight: bolder;
+}
+
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+textarea {
+	width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 100%;
+}
+
+.butt{
+ 	width: 75%;
+  	float: right;
+}
+
+
+#footer{
+	width: 100%;
+    height: auto;
+    background: grey;
+    clear: both;
+    margin-top: 40px;
+    padding: 0 10% 0 10%;
+
+/*    padding-bottom: 15px;
+*/}
+
+#footer, .col-1, .col-2, .col-3, .col-4{
+	display: inline-flex;
+}
+
+.col-1, .col-2, .col-3, .col-4{
+	width: 20%;
+}
+
+#footer, li{
+	list-style-type: none;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+/*	padding: 20px;
+*/}
+
+.copyright{
+	float: left;
+}
+
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
